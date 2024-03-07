@@ -1,0 +1,19 @@
+let userName = 'Adam';
+
+if(userName){
+  console.log('Hello, ' + userName + '!');
+}
+else{
+  console.log('Hello!');
+}
+
+let userQuestion = 'Hello Magic Eight Ball. Am I intelligent?';
+console.log(userQuestion);
+
+let randomNumber = Math.floor(Math.random() * 8);
+
+let Answer = ['It is certain', 'It is decidedly so', 'Reply hazy try again', 'Cannot predict now', 'Do not count on it', 'My sources say no', 'Outlook not so good', 'Signs point to yes'];
+
+let eightBall = Answer[randomNumber];
+
+console.log(eightBall);
